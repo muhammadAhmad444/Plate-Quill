@@ -1,0 +1,46 @@
+/* src/components/CravingsSection.css */
+
+.cravings-section {
+    padding-top: 64px;
+    background-color: #fff;
+    padding-bottom: 144px;
+    padding-inline: 9.5%;
+}
+  
+.cravings-section h2 {
+    font-size: 48px;
+    font-weight: 600;
+    background-color: #E4A951;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 72px;
+}
+  
+.dishes {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+  
+.dish {
+    flex: 1;
+    max-width: 401px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #e3dcdc;
+    border-radius: 16px;
+}
+  
+.dish-image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0px 0px;
+}
+  
+.dish p {
+    font-size: 26px;
+    line-height: 51px;
+    font-weight: 500;
+}
+  

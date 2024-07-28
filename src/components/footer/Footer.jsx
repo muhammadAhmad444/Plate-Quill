@@ -32,9 +32,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-vegetables">
-        <img src="vegetables.png" alt="Vegetables" />
-      </div>
+      
     </footer>
   );
 };
