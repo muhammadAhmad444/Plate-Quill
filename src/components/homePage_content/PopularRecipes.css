@@ -1,0 +1,79 @@
+.recipes-container {
+    padding-inline: 9.5%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 160px;
+}
+  
+.recipes-title {
+    font-size: 73px;
+    font-weight: 600;
+    line-height: normal !important;
+    margin-bottom: 20px;
+    border-right: 2px solid black;
+}
+
+.recipes-title-content {
+    padding-right: 3%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+  .recipes-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recipes-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .recipes-image {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+  }
+  
+  .recipes-description {
+    width: 73%;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: normal;
+    color: black;
+}
+  
+.recipes-link {
+    color: #C65C14;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+  
+  .recipes-link::after {
+    content: " ▶";
+  }
+
+  .recipes-grid {
+    width: 55%;
+}
+  
+  .garlic-bread {
+    background-image: url('public/Garlic bread.png');
+  }
+  
+  .chocolate-pudding {
+    background-image: url('public/Chocolate pudding.png');
+  }
+  
+  .shrimp-noodles {
+    background-image: url('public/Shrimp noodles.png');
+  }
+  

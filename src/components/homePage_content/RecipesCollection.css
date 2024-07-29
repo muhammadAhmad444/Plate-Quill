@@ -1,0 +1,54 @@
+.collections-container {
+    text-align: start;
+
+    padding-inline: 9.5%;
+}
+  
+  .collections-title {
+    font-size: 48px;
+    font-weight: 600;
+    background-color: #E4A951;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 72px;
+  }
+  
+  .collections-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 144px;
+}
+  
+.collection-item {
+    width: 30%;
+    height: 430px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 16px;
+}
+  
+.collection-item::after {
+    content: "COLLECTION";
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 5px;
+}
+  
+  .pancakes {
+    background-image: url('public/collection1.png');
+  }
+  
+  .salad {
+    background-image: url('public/collection2.png');
+  }
+  
+  .assorted-dishes {
+    background-image: url('public/collection3.png');
+  }
+  

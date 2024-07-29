@@ -1,7 +1,7 @@
 /* src/components/MoreRecipe.css */
 
 .more-recipes-section {
-    padding-top: 64px;
+    
     background-color: #fff;
     padding-bottom: 144px;
     padding-inline: 9.5%;
@@ -18,28 +18,26 @@
   
 .recipes-gallary {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 35px;
     flex-wrap: wrap;
 }
   
-.recipes-gallary dish {
+.more-recipes-gallary {
     flex: 1;
-    max-width: 401px;
+    max-width: 280px;
     height: auto;
     text-align: center;
-    border: 1px solid #e3dcdc;
-    border-radius: 16px;
 }
   
-.dish-image {
-    width: 100%;
+.recipes-gallary-image {
+    width: 200px;
     height: auto;
     border-radius: 16px 16px 0px 0px;
+    margin-top: 15px;
 }
   
-.dish p {
-    font-size: 26px;
-    line-height: 51px;
+.more-recipes-gallary p {
+    font-size: 32px;
     font-weight: 500;
 }
