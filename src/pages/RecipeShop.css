@@ -1,4 +1,63 @@
-.RecipeShop{
 
-    background-color: aqua;
+.RecipeShop {
+    background-color: rgb(255 255 255);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 80px;
+    padding-inline: 1.5%;
+    padding-bottom: 100px;
+}
+
+
+.recipe-list {
+    width: 80%;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+
+
+.sidebar h3 {
+    font-size: 48px;
+    font-weight: 600;
+    background-color: #E4A951;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 40px;
+}
+
+.recipe-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 5%;
+}
+
+.recipe-card {
+    width: 280px;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.recipe-card h4 {
+    font-weight: 500;
+    font-size: 24px;
+    padding-block: 5px;
+}
+
+.recipe-card p {
+    font-size: 16px;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.rating {
+    margin-bottom: 0px;
+    color: gold;
+    font-size: 28px;
 }

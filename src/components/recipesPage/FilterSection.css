@@ -1,0 +1,64 @@
+/* src/FilterSection.css */
+
+.filter-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-section li {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.filter-section h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Custom Checkbox Styles */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox-container input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-custom {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transition: background-color 0.2s ease;
+}
+
+.checkbox-container input[type="checkbox"]:checked + .checkbox-custom {
+  background-color: #E4A951;
+  border-color: #E4A951;
+}
+
+.checkbox-custom::after {
+  content: '';
+  width: 6px;
+  height: 10px;
+  border: solid #E4A951;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.checkbox-container input[type="checkbox"]:checked + .checkbox-custom::after {
+  display: block;
+}
+
+.filter-section {
+  margin-bottom: 25px;
+}

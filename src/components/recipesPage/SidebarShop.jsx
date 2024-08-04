@@ -1,24 +1,16 @@
 import React from 'react';
+import FilterSection from './FillterSection';
 
 const Sidebar = ({ onFilterChange }) => {
-  const handleFilterChange = (e) => {
-    // Gather all filter values and pass them to the parent component
-    onFilterChange(/* filter values */);
-  };
+  const cuisines = ["Italian", "Mexican", "Chinese", "Indian"];
+  const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snacks"];
 
   return (
     <div className="sidebar">
       <h3>Filters</h3>
-      {/* Render filter options here */}
-      <div>
-        <h4>Cuisine</h4>
-        <ul>
-          <li><input type="checkbox" onChange={handleFilterChange} /> Italian</li>
-          <li><input type="checkbox" onChange={handleFilterChange} /> Mexican</li>
-          {/* Add more cuisines */}
-        </ul>
-      </div>
-      {/* Add more filter categories similarly */}
+      <FilterSection title="Cuisine" items={cuisines} onFilterChange={onFilterChange} />
+      <FilterSection title="Meal Type" items={mealTypes} onFilterChange={onFilterChange} />
+      {/* Add more FilterSection components as needed */}
     </div>
   );
 };
