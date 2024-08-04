@@ -43,8 +43,9 @@
     padding-block: 18px;
     background: transparent;
     font-size: 30px;
+    color: white;
     border: none;
-    border-radius: 5px 0 0 5px;
+    border-radius: 40px 0 0 40px;
 }
 
 .search-bar input::placeholder {

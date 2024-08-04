@@ -1,0 +1,105 @@
+/* src/ProfileSection.css */
+
+.profile-section {
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 9.5%;
+    padding-top: 150px;
+    text-align: center;
+}
+  
+.profile-header {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 10px;
+}
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+  
+  .profile-info {
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  .profile-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  .profile-info h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 500;
+}
+  
+.stars {
+    color: gold;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+  
+.social-icons a {
+    margin-right: 16px;
+    color: inherit;
+}
+  
+
+  
+  .profile-bio {
+    padding: 10px;
+  }
+
+  .profile-bio p {
+    font-size: 24px;
+    text-align: start;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.favourites {
+    padding-inline: 9.5%;
+    padding-bottom: 100px;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 10px 0;
+}
+  
+  .profile-stats {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 10px 0;
+    margin-top: 100px;
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: left;
+    gap: 80px;
+    padding: 10px 0;
+}
+  
+.stat-number {
+    font-size: 80px;
+    font-weight: 500;
+}
+  
+.stat-label {
+    display: block;
+    font-size: 32px;
+    font-weight: 500;
+}
+  
