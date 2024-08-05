@@ -6,6 +6,7 @@ import SignUp from "./pages/SignUp"
 import Layout from "./pages/Layout";
 import ProfilePage from "./pages/ProfilePage";
 import RecipesPage from "./pages/RecipeShop";
+import RecipeInformation from "./pages/RecipeInfo";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/RecipeShop",
         element: <RecipesPage />,
+      },
+      {
+        path: "/RecipeInfo",
+        element: <RecipeInformation />,
       },
     ],
   },
