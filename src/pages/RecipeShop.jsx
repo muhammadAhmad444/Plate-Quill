@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from "react";
 import Sidebar from "../components/recipesPage/SidebarShop";
 import RecipeList from "../components/recipesPage/RecipeList";

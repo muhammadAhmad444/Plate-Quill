@@ -3,9 +3,9 @@ import React from 'react';
 
 const RecipeCard = ({ recipe }) => {
   return (
-    <div className="recipe-card">
+    <div className="recipe-card hoverable-component">
       <div className="image-container">
-      <img src={recipe.image} alt={recipe.title} />
+        <img src={recipe.image} alt={recipe.title} />
       </div>
       <h4>{recipe.title}</h4>
       <p>by {recipe.author}</p>

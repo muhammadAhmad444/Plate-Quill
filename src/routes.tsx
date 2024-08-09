@@ -7,7 +7,8 @@ import Layout from "./pages/Layout";
 import ProfilePage from "./pages/ProfilePage";
 import RecipesPage from "./pages/RecipeShop";
 import RecipeInformation from "./pages/RecipeInfo";
-
+import SelectCategoryPage from "./pages/SelectCategoryPage";
+import RecipeUploadPage from "./pages/RecipeUploadPage";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -35,6 +36,14 @@ export const router = createBrowserRouter([
       {
         path: "/RecipeInfo",
         element: <RecipeInformation />,
+      },
+      {
+        path: "/SelectCategoryPage",
+        element: <SelectCategoryPage />,
+      },
+      {
+        path: "/RecipeUploadPage",
+        element: <RecipeUploadPage />,
       },
     ],
   },

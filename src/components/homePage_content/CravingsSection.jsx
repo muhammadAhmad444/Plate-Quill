@@ -16,7 +16,7 @@ const CravingsSection = () => {
       <h2>WHAT WE'RE CRAVING</h2>
       <div className="dishes">
         {dishes.map((dish, index) => (
-          <div key={index} className="dish">
+          <div key={index} className="dish hoverable-component">
             <img src={dish.image} alt={dish.name} className="dish-image" />
             <p>{dish.name}</p>
           </div>
@@ -27,3 +27,5 @@ const CravingsSection = () => {
 };
 
 export default CravingsSection;
+
+

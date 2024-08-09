@@ -17,7 +17,7 @@ const MoreRecipes = () => {
       <h2>MORE RECIPES</h2>
       <div className="recipes-gallary">
         {dishes.map((dish, index) => (
-          <div key={index} className="more-recipes-gallary">
+          <div key={index} className="more-recipes-gallary hoverable-component">
             <img src={dish.image} alt={dish.name} className="recipes-gallary-image" />
             <p>{dish.name}</p>
           </div>

@@ -19,15 +19,16 @@ const Navbar = () => {
 
         <Link to="/RecipeInfo" className="navbar-link">Recipe Info</Link>
 
-        <Link to="/ProfilePage" className="navbar-link">
+        <Link to="/RecipeShop" className="navbar-link">Shop</Link>
 
+        <Link to="/ProfilePage" className="navbar-link">
         <div className="">
         <img src="public/iconoir_profile-circle.png" alt="Logo" />
         </div>
 
         </Link>
 
-        <Link to="/RecipeShop" className="navbar-link">
+        <Link to="/SelectCategoryPage" className="navbar-link">
 
         <div className="">
         <img src="public/ph_plus.png" alt="add new recipe" />
